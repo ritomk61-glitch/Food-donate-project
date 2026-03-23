@@ -34,9 +34,20 @@ const Home = () => {
           <h1 className="p-7 font-serif font-extrabold">Today's Listings</h1>
           
           <div className="flex gap-3 m-6">
-            <div className="bg-emerald-50 rounded-2xl w-49 h-21 border-emerald-600 transition-all hover:translate-y-0.5 ">1</div>
-            <div className="bg-emerald-50 rounded-2xl w-49 h-21 border-emerald-200 transition-all hover:translate-y-0.5 ">3</div>
-            <div className="bg-emerald-50 rounded-2xl w-49 h-21 border-emerald-200 transition-all hover:translate-y-0.5 ">4</div>
+            <div className="bg-emerald-50 rounded-2xl w-49 h-21 border-emerald-600 transition-all hover:translate-y-0.5 ">
+              <h1 className="flex justify-center text-green-800 items-center  pt-3 font-bold">42</h1>
+              <p className="flex justify-center text-green-800 items-center font-mono text font-bold ">available</p>
+            </div>
+            <div className="bg-emerald-50 rounded-2xl w-49 h-21 border-emerald-200 transition-all hover:translate-y-0.5 ">
+              <h1 className="flex justify-center text-green-800 items-center  pt-3 font-bold">18</h1>
+               <p className="flex justify-center text-green-800 items-center font-mono text font-bold ">Claimed</p>
+
+            </div>
+            <div className="bg-emerald-50 rounded-2xl w-49 h-21 border-emerald-200 transition-all hover:translate-y-0.5 ">
+              <h1 className="flex justify-center text-green-800 items-center  pt-3 font-bold">9</h1>
+               <p className="flex justify-center text-green-800 items-center font-mono text font-bold ">Urgent</p>
+
+            </div>
           </div>
 
           <div>
@@ -46,12 +57,17 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
-        <h1 className="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
-          saepe reprehenderit. Tempora ab accusantium nesciunt magnam, provident
-          nemo animi optio doloribus corporis quaerat debitis? Rerum adipisci
-          qui animi rem libero deserunt minima?
+      <div className="h-50 w-full bg-green-900">
+
+        <div className="flex justify-between pt-20 mx-10 text-4xl font-medium text-green-300 font-serif">
+          <h1>1200+ Donations</h1>
+          <h1>840 Register donors</h1>
+          <h1>3.2 tons of food saved</h1>
+          <h1>98% satisfaction rate</h1>
+
+        </div>
+        <h1 className=" ">
+      
         </h1>
       </div>
     </div>

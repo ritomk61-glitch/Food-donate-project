@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <div className=' '>
     
-    <div className='flex justify-between text-3xl p-2 1 border-gray-300 items-center flex-wrap'>
+    <div className='flex justify-between text-3xl p-2 1  items-center flex-wrap'>
         <div className='mb-0 '>
-          <h1 className='font-serif text-2xl font-bold text-green-600'>🌿<span className='text-black font-light'>Food</span>Bridge</h1>
+          <h1 className='font-serif text-2xl font-bold text-green-600'>🌿<span className='text-black font-light'>Share</span>Bite</h1>
         </div>
     <div className=' flex gap-7 font-mono text-sm f mr-20 mt-3 font-medium opacity-80'>
-      <Link to="/home">Home</Link>
+      <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
       <Link to={"/food"}>Food</Link>
