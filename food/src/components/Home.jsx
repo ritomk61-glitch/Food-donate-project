@@ -1,8 +1,9 @@
 import React from "react";
+import Home1 from "./Home1";
 
 const Home = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen ">
       
       <div className="flex justify-between mx-90 mt-10 h-177  sm:flex-col sm:items-center lg:flex-row  ">
         <div className=" items-center mt-10 mr-20">
@@ -14,7 +15,7 @@ const Home = () => {
             <br />a second chance
           </h1>
           <p className="mt-4 font-sans font-lg text-xl">
-            FoodBridge connects food donors with people in need. <br /> List
+            sharebite connects food donors with people in need. <br /> List
             your surplus food, find available donations nearby, <br /> and
             reduce food waste in your community.
           </p>
@@ -51,25 +52,49 @@ const Home = () => {
           </div>
 
           <div>
-            <div className="w-110 m-5 h-15 rounded bg-fuchsia-100 border transition-all hover:translate-y-0.5">1</div>
-            <div className="w-110 m-5 h-15 rounded bg-fuchsia-100 border transition-all hover:translate-y-0.5">2</div>
-            <div className="w-110 m-5 h-15 rounded bg-fuchsia-100 border ">3</div>
+            <div className="w-110 m-5 h-15 rounded-lg bg-fuchsia-100 transition-all hover:translate-y-0.5 ">
+              <div className="flex justify-between mx-6 pt-2">
+                <p className="font-medium">🍞 Artisan Bread Loaves</p>
+                <h5 className="bg-green-700 w-18 pl-3  text-white rounded-2xl">FRESH</h5>
+              </div>
+              <p className="font-medium ml-6 opacity-40">Baker Street · 2 km away</p>
+            </div>
+
+
+            <div className="w-110 m-5 h-15 rounded-lg bg-fuchsia-100  transition-all hover:translate-y-0.5">
+              <div className="flex justify-between mx-6 pt-2">
+                <p className="font-medium">🥗 mixed Salad Box × 8</p>
+                <h5 className="bg-orange-300 w-18 pl-3 text-white rounded-2xl">Urgent</h5>
+              </div>
+              <p className="font-medium ml-6 opacity-40">Green Cafe · 0.8 km away</p>
+            </div>
+
+
+            <div className="w-110 m-5 h-15 rounded-lg bg-fuchsia-100  ">
+              <div className="flex justify-between mx-4 pt-2">
+                <p className="font-medium">🍚 Cooked Rice Portions</p>
+                <h5 className="bg-purple-300 w-20 pl-3 text-white rounded-2xl">Claimed</h5>
+              </div>
+              <p className="font-medium ml-4 opacity-40">Community Kitchen · 1.4 km</p>
+            </div>
+          
           </div>
         </div>
       </div>
       <div className="h-50 w-full bg-green-900">
 
-        <div className="flex justify-between pt-20 mx-10 text-4xl font-medium text-green-300 font-serif">
-          <h1>1200+ Donations</h1>
-          <h1>840 Register donors</h1>
-          <h1>3.2 tons of food saved</h1>
-          <h1>98% satisfaction rate</h1>
+        <div className="flex justify-between pt-20 mx-10 text-4xl font-mono text-green-300 font-serif">
+          <h1>0+ Donations</h1>
+          <h1>0 Register donors</h1>
+          <h1>0 tons of food saved</h1>
+          <h1>0% satisfaction rate</h1>
 
         </div>
         <h1 className=" ">
       
         </h1>
       </div>
+      <Home1 />
     </div>
   );
 };
