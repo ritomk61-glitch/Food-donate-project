@@ -93,6 +93,16 @@ const Home1 = () => {
           </div>
         </div>
       </div>
+
+ <div className="bg-black h-30 text-2xl text-white flex justify-center">
+   
+   <h1 className="font-sans pt-10">© 2026 sharebite</h1>
+   {/* <h1 className="font-sans pt-10">create by Ritom & Arshalaan</h1> */}
+
+    
+
+ </div>
+
     </div>
   );
 };
